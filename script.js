@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Placeholder for match-finding functionality with an alert message
         findMatches();
     });
-});
+}); 
 
 function displayPhotoPreview(file, previewContainerId) {
     const previewContainer = document.getElementById(previewContainerId);
