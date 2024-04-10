@@ -9,7 +9,7 @@
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     justify-content: center;
     align-items: center;
-}
+} 
 
 .loader::after {
     content: ' ';
