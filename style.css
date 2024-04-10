@@ -11,6 +11,7 @@
     align-items: center;
 }
 
+
 .loader::after {
     content: ' ';
     width: 20px;
