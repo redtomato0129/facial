@@ -2,7 +2,7 @@ async function loadModels() {
     await faceapi.nets.ssdMobilenetv1.loadFromUri('/facial/models');
     await faceapi.nets.faceLandmark68Net.loadFromUri('/facial/models');
     await faceapi.nets.faceRecognitionNet.loadFromUri('/facial/models');
-} 
+}
 
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('referencePhoto').addEventListener('change', function() {
