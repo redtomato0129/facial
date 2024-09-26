@@ -1,5 +1,5 @@
 .loader {
-    display: none; /* Hidden by default */
+    display: none; /* Hidden by default */ 
     position: fixed;
     z-index: 9999; /* Ensure it's on top of other content */
     left: 0;
